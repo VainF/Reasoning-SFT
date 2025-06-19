@@ -67,6 +67,9 @@ In this example, we show how to fine-tune the ``deepseek-ai/DeepSeek-R1-Distill-
 > [!IMPORTANT]
 > Since Docker creates files with root permissions, we download and preprocess the models and data using your user account. This ensures you can easily modify the files later using your preferred editor, such as VSCode.
 
+### 0. GPU Resource
+The default config with `Tensor Parallel=1` and `Pipeline Parallel=1` (TP1PP1) requires ~70 GB of memory per GPU. For some GPUs, you may try TP2PP1 or TP1PP2 to distribute the parameters across GPUs.
+
 ### 1. Prepare the LLM
 
 ```bash
