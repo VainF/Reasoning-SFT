@@ -1,6 +1,6 @@
 # Reasoning-SFT
 
-![image](https://github.com/user-attachments/assets/2dcf76bd-af2d-425f-b25c-c5e050f11875)
+![image](https://github.com/user-attachments/assets/450042a1-6749-4015-83d5-1490db05e7fc)
 
 
 This repository is a customized version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM), extended to support Supervised Fine-Tuning (SFT) of reasoning models. **Reasoning-SFT** applies prompt masking to train exclusively on the response. It was used to train the hybrid reasoning model [Thinkless-1.5B-Warmup](https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup). This code is also suitable for standard SFT. 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## Example: Hybrid Reasoning via SFT (DeepSeek-R1-Distill-Qwen-1.5B)
 
-![image](https://github.com/user-attachments/assets/450042a1-6749-4015-83d5-1490db05e7fc)
+![image](https://github.com/user-attachments/assets/2dcf76bd-af2d-425f-b25c-c5e050f11875)
 
 In this example, we show how to fine-tune the ``deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`` to enable hybrid reasoning. 
 
