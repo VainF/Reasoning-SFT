@@ -144,7 +144,7 @@ assets
 
 ### 3. Prepare the Hybrid Reasoning Dataset
 
-Download the hybrid reasoning dataset from Huggingface and save it as a json file. 
+Download the hybrid reasoning dataset from Huggingface and save it as a JSON file. We assume that the dataset already contains `instruction` and `output` fields. For other datasets, you may customize the [scripts/data/download_hf_dataset.py](scripts/data/download_hf_dataset.py).
 ```bash
 # In your user account
 bash scripts/data/download_hf_dataset.py --dataset-card Vinnnf/Hybrid-OpenThoughts2-1M-1.5B
