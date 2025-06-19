@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## Example: Hybrid Reasoning via SFT (DeepSeek-R1-Distill-Qwen-1.5B)
 
-In this example, we show how to finetune the ``deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`` to enable hybrid reasoning. 
+In this example, we show how to fine-tune the ``deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`` to enable hybrid reasoning. 
 
 > [!IMPORTANT]
 > Since Docker creates files in root mode, we first download and preprocess models and data in your user account, so that you can easily modify the files using your editor such VSCode.
@@ -85,7 +85,7 @@ assets
         └── tokenizer.json
 ```
 
-Then, we modify the tokeinizer files to replace the `<|quad_start|>` token with a control token `<short>`. 
+Then, we modify the tokenizer files to replace the `<|quad_start|>` token with a control token `<short>`. 
 ```
 #assets/checkpoints/deepseek_ai_DeepSeek_R1_Distill_Qwen_1.5B/tokenizer_config.json
 "151650": {
