@@ -182,17 +182,20 @@ The parameters are:
 ### 4. Training
 
 Run the fine-tuning script:
-```bash 
+```bash
+# In the Docker
 bash scripts/sft/SFT_Hybrid_R1_1.5B_OpenThoughts_1M.sh train
 ```
 
 Auto Resume:
-```bash 
+```bash
+# In the Docker
 bash scripts/sft/SFT_Hybrid_R1_1.5B_OpenThoughts_1M.sh resume
 ```
 
 ### 5. Export to Huggingface Format
 ```bash
+# In the Docker
 bash scripts/checkpoints/merge_and_export.sh PATH_TO_YOUR_CKPT assets/checkpoints/deepseek_ai_DeepSeek_R1_Distill_Qwen_1.5B assets/checkpoints/export/Hybrid_R1_1.5B
 ```
 
