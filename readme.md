@@ -139,7 +139,7 @@ assets/
 ```
 The parameters are:
 * The path to the tokenizer model (usually the HF model path)
-* The path to the dataset json file
+* The path to the dataset JSON file
 * The maximum sequence length for training, a value larger than 16384 is recommended.
 
 
@@ -155,7 +155,6 @@ bash scripts/sft/SFT_Hybrid_R1_1.5B_OpenThoughts_1M.sh train
 bash scripts/checkpoints/merge_and_export.sh PATH_TO_YOUR_CKPT assets/checkpoints/deepseek_ai_DeepSeek_R1_Distill_Qwen_1.5B assets/checkpoints/export/Hybrid_R1_1.5B
 ```
 
+## Acknowledgement
 
-
-
-
+The data processing code was adapted from [alibaba/Pai-Megatron-Patch](https://github.com/alibaba/Pai-Megatron-Patch/tree/main/toolkits/sft_data_preprocessing).
