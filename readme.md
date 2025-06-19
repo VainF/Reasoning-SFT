@@ -60,6 +60,8 @@ pip install -r requirements.txt
 
 ## Example: Hybrid Reasoning via SFT (DeepSeek-R1-Distill-Qwen-1.5B)
 
+![image](https://github.com/user-attachments/assets/450042a1-6749-4015-83d5-1490db05e7fc)
+
 In this example, we show how to fine-tune the ``deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`` to enable hybrid reasoning. 
 
 > [!IMPORTANT]
