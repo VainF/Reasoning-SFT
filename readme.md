@@ -34,6 +34,8 @@ This repository is a customized version of [NVIDIA Megatron-LM](https://github.c
   </tbody>
 </table>
 
+![image](https://github.com/user-attachments/assets/2dcf76bd-af2d-425f-b25c-c5e050f11875)
+
 
 ## Setup
 
@@ -57,8 +59,6 @@ pip install -r requirements.txt
 ## Example: Hybrid Reasoning via SFT (DeepSeek-R1-Distill-Qwen-1.5B)
 
 In this example, we show how to finetune the ``deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`` to enable hybrid reasoning. 
-
-![image](https://github.com/user-attachments/assets/2dcf76bd-af2d-425f-b25c-c5e050f11875)
 
 > [!IMPORTANT]
 > Since Docker creates files in root mode, we first download and preprocess models and data in your user account, so that you can easily modify the files using your editor such VSCode.
