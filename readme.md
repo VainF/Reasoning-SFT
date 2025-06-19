@@ -2,6 +2,39 @@
 
 This repository is a customized version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM), extended to support Supervised Fine-Tuning (SFT). **Reasoning-SFT** applies prompt masking to train exclusively on the response. It was used to train the hybrid reasoning model [Thinkless-1.5B-Warmup](https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup) using SFT. You can also use the code for standard SFT. 
 
+<table>
+<table>
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <td>📄 <strong>Paper Link</strong></td>
+      <td><a href="http://arxiv.org/abs/2505.13379">ArXiv</a></td>
+    </tr>
+    <tr>
+      <td>💻 <strong>Thinkless GitHub</strong></td>
+      <td><a href="https://github.com/VainF/Thinkless">VainF/Thinkless</a></td>
+    </tr>
+    <tr>
+      <td>🤖 <strong>RL Model</strong></td>
+      <td><a href="https://huggingface.co/Vinnnf/Thinkless-1.5B-RL-DeepScaleR">Thinkless-1.5B-RL-DeepScaleR</a></td>
+    </tr>
+    <tr>
+      <td>🐣 <strong>Warmup Model</strong></td>
+      <td><a href="https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup">Thinkless-1.5B-Warmup</a></td>
+    </tr>
+    <tr>
+      <td>📊 <strong>Data for Warmup</strong></td>
+      <td><a href="https://huggingface.co/datasets/Vinnnf/Hybrid-OpenThoughts2-1M-1.5B">Hybrid-OpenThoughts2-1M-1.5B</a></td>
+    </tr>
+    <tr>
+      <td>📊 <strong>Data for RL</strong></td>
+      <td><a href="https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset">agentica-org/DeepScaleR-Preview-Dataset</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## Setup
 
 We recommend using a Docker container to run this code, as installing Transformer Engine and Megatron-LM might be a bit complex.
