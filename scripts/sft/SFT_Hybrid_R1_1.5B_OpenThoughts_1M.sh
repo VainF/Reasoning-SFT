@@ -23,7 +23,7 @@ NUM_QUERY_GROUPS=2 # number of query groups
 FFN_HIDDEN_SIZE=8960 # feed forward network hidden size
 RMS_NORM_EPS=1e-6 # epsilon for rms layer normalization
 SEQ_LENGTH=16384 # sequence length
-MAX_POSITION_EMBEDDINGS=32768 # maximum position embeddings
+MAX_POSITION_EMBEDDINGS=131072 # maximum position embeddings
 ROPE_BASE=10000
 
 # Get Data Blend
