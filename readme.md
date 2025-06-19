@@ -1,6 +1,6 @@
 # Megatron-SFT
 
-This is a modified version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) to support Supervised Fine-Tuning (SFT). This repo was used to train the hybrid reasoning model [Thinkless-1.5B-Warmup](https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup) via SFT.
+This is a modified version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) to support Supervised Fine-Tuning (SFT). Megatron-SFT masks the prompt and only trains on the response. This repo was used to train the hybrid reasoning model [Thinkless-1.5B-Warmup](https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup) via SFT.
 
 ## Setup
 
