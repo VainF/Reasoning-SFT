@@ -4,7 +4,7 @@ This is a modified version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Meg
 
 ## Setup
 
-We heavily recommend using a docker container to run this code, since the instllation of transformer engine and megatron-lm is not that easy!
+We heavily recommend using a docker container to run this code, since the installation of transformer engine and megatron-lm is not that easy!
 
 ```bash
 # In your user account
