@@ -1,10 +1,10 @@
 # Megatron-SFT
 
-This is a modified version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) to support Supervised Fine-Tuning (SFT). Megatron-SFT masks the prompt and only trains on the response. This repo was used to train the hybrid reasoning model [Thinkless-1.5B-Warmup](https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup) via SFT.
+This repository is a customized version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM), extended to support Supervised Fine-Tuning (SFT). **Megatron-SFT** applies prompt masking to train exclusively on the response. It was used to train the hybrid reasoning model [Thinkless-1.5B-Warmup](https://huggingface.co/Vinnnf/Thinkless-1.5B-Warmup) using SFT. You can also use the code for standard SFT. 
 
 ## Setup
 
-We heavily recommend using a docker container to run this code, since the installation of transformer engine and megatron-lm is not that easy!
+We recommend using a Docker container to run this code, as installing Transformer Engine and Megatron-LM might be a bit complex.
 
 ```bash
 # In your user account
@@ -13,10 +13,9 @@ pip install -r requirements.txt # install the transformers in your user account
 docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -v "$PWD":"$PWD" -v $HOME:$HOME -w "$PWD" -it --rm nvcr.io/nvidia/pytorch:24.12-py3 
 ```
 
-runing the above command will mount the current directory and your home directory to the docker container. To mount other directories, you can add `-v /path/to/dir:/path/to/dir` to the command.
+Running the above command will mount both the current directory and your home directory into the Docker container. To mount additional directories, simply add `-v /path/to/dir:/path/to/dir` to the command.
 
-Then, in the docker container, install all necessary packages:
-
+Once inside the Docker container, install all necessary packages:
 ```bash
 # In the docker
 pip install -r requirements.txt
