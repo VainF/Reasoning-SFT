@@ -1,6 +1,6 @@
 # Megatron-SFT
 
-This a is modified version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) to support Supervised Fine-Tuning (SFT). 
+This is a modified version of [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) to support Supervised Fine-Tuning (SFT). 
 
 ## Setup
 
