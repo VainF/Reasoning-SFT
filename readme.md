@@ -162,4 +162,4 @@ bash scripts/checkpoints/merge_and_export.sh PATH_TO_YOUR_CKPT assets/checkpoint
 
 ## Acknowledgement
 
-The data processing code was adapted from [alibaba/Pai-Megatron-Patch](https://github.com/alibaba/Pai-Megatron-Patch/tree/main/toolkits/sft_data_preprocessing).
+This implementation is also heavily based on [alibaba/Pai-Megatron-Patch](https://github.com/alibaba/Pai-Megatron-Patch/tree/main/toolkits/sft_data_preprocessing).
