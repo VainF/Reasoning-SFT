@@ -161,6 +161,10 @@ bash scripts/sft/SFT_Hybrid_R1_1.5B_OpenThoughts_1M.sh resume
 bash scripts/checkpoints/merge_and_export.sh PATH_TO_YOUR_CKPT assets/checkpoints/deepseek_ai_DeepSeek_R1_Distill_Qwen_1.5B assets/checkpoints/export/Hybrid_R1_1.5B
 ```
 
+### 6. Training Loss for Reference
+
+<img width="780" alt="image" src="https://github.com/user-attachments/assets/19bc47f4-b481-4aff-aa11-3e0ac658ee74" />
+
 ## Acknowledgement
 
 This implementation is also heavily based on [alibaba/Pai-Megatron-Patch](https://github.com/alibaba/Pai-Megatron-Patch/tree/main/toolkits/sft_data_preprocessing).
