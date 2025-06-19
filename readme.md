@@ -25,8 +25,10 @@ pip install -r requirements.txt
 
 In this example, we show how to finetune the ``deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`` to enable hybrid reasoning. 
 
+![image](https://github.com/user-attachments/assets/2dcf76bd-af2d-425f-b25c-c5e050f11875)
+
 > [!IMPORTANT]
-> Since docker create files in root mode, we first download and preprocess models and data in your user account, so that you can easily modify the files using your editor such VSCode.
+> Since Docker creates files in root mode, we first download and preprocess models and data in your user account, so that you can easily modify the files using your editor such VSCode.
 
 ### 1. Prepare the LLM
 
